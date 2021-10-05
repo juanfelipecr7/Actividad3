@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Actividad 3</title>
+	<style type="text/css">
+		.grande{
+			position: absolute;
+			top: 10px;
+			left: 190px;
+			height: 600px;
+			width: 1000px;
+			background: royalblue;
+			border-radius: 50px;
+            border: solid;
+
+		}
+
+		.tema{
+			position: absolute;
+			top: 30px;
+			left: 250px;
+			height: 100px;
+			width: 500px;
+			background: red;
+			border-radius: 50px;
+			font-size: 70px;
+			line-height: 100px;
+			text-align: center;
+			box-shadow: 5px 5px 5px #000;
+			font-family: Times New Roman;
+			border: solid;
+		}
+
+		.cerrar1{
+			position: absolute;
+			top: 40px;
+			left: 390px;
+			height: 50px;
+			width: 100px;
+			background: greenyellow;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 32px;
+			line-height: 50px;
+			text-align: center;
+			box-shadow: 5px 5px 5px #000;
+			font-family: Times New Roman;
+			border: solid;
+
+		}
+
+		.info{
+			position: absolute;
+			top: 520px;
+			left: 400px;
+			height: 50px;
+			width: 150px;
+			background: red;
+			border-radius: 50px;
+			font-size: 40px;
+			line-height: 50px;
+			box-shadow: 5px 5px 5px #000;
+			text-align: center;
+			font-family: Times New Roman;
+			border: solid;
+		}
+
+		.cerrar2{
+			position: absolute;
+			top: 520px;
+			left: 190px;
+			height: 50px;
+			width: 150px;
+			background: greenyellow;
+			border-radius: 50px;
+			font-size: 40px;
+			line-height: 50px;
+			text-align: center;
+			font-family: Times New Roman;
+			box-shadow: 5px 5px 5px #000;
+			border: solid;
+		}
+
+		.informacion{
+			position: absolute;
+			top: 150px;
+			left: 50px;
+			height: 0px;
+			width: 900px;
+			background: red;
+			border-radius: 50px;
+			transition: all 2s ;
+		
+		}
+
+		.informacion2{
+			position: absolute;
+			top: 150px;
+			left: 50px;
+			height: 0px;
+			width: 900px;
+			background: red;
+			border-radius: 50px;
+            transition: all 2s;
+			
+		}
+
+	</style>
+</head>
+<body>
+<div class="grande">
+<div class="tema" id="tem" onclick="document.getElementById('informa').style.height='350px'">Tema
+<div class="cerrar1" id="ce1" onclick="document.getElementById('informa').style.width='0px'">Cerrar</div></div>
+<div class="info" id="info" onclick="document.getElementById('informa2').style.height='350px'">Info</div>
+<div class="cerrar2" id="ce2" onclick="document.getElementById('informa2').style.width='0px'">Cerrar</div>
+<div class="informacion" id="informa">
+	<img src="">
+</div>
+<div class="informacion2" id="informa2">
+	
+</div>
+</div>
+</body>
+</html>
